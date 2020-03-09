@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(183, 236, 219);
+    margin: 100px auto;
+    width: 520px;
+    padding: 10px 5%;
+}
+
+input[type=button] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 95%;
+    margin: 10px auto;
+    font-size: 1.2em;
+    display: block;
+}
+
+input[type=number] {
+    width: 80%;
+    padding: 16px 32px;
+    margin: 10px auto;
+    display: block;
+    font-size: 1.2em;
+}
+
+select {
+    width: 500px;
+    font-size: 1.2em;
+    margin: 10px auto;
+    display: block;
+}
